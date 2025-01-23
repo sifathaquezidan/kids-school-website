@@ -1,37 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kids School</title>
-    <link rel="stylesheet" href="styles/kidschool.css">
-</head>
+    <link rel="stylesheet" href="styles/kidschool.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 
-<body class="quicksand-font">
+  </head>
+
+  <body class="quicksand-font">
     <header>
+      <div class="nav">
         <nav class="navbar display-flex">
-            <div class="display-flex">
-                <img src="assets/logo.png" alt="">
-                <h2>SCHOOL</h2>
+          <div class="display-flex logo">
+            <div>
+              <img src="assets/logo.png" alt="" />
             </div>
-            <ul class="nav-links display-flex">
-                <li class="nav-item"><a href="" class="nav-links">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-links"></a>About</li>
-                <li class="nav-item"><a href="" class="nav-links"></a>Facilities</li>
-                <li class="nav-item"><a href="" class="nav-links"></a>Admission</li>
-            </ul>
-            <button class="btn">
-                Contact
-            </button>
+            <h2>SCHOOL</h2>
+          </div>
+          <ul class="nav-links display-flex">
+            <li class="nav-item home">
+              <a href="" class="nav-links">Home</a>
+            </li>
+            <li class="nav-item about">
+              <a href="" class="nav-links">About</a>
+            </li>
+            <li class="nav-item faci">
+              <a href="" class="nav-links">Facilities</a>
+            </li>
+            <li class="nav-item admi">
+              <a href="" class="nav-links">Admission</a>
+            </li>
+          </ul>
+          <button class="btn">Contact</button>
         </nav>
+
+        <nav class="mobile">
+          <div class="mobile-menu">
+            <div>
+              <img src="assets/logo.png" alt="" />
+            </div>
+            <div>
+              <img class="ham" src="assets/hamburger.png" alt="" />
+            </div>
+          </div>
+        </nav>
+      </div>
+      <hr />
     </header>
+
+
+
     <main>
 
+        <!-- Hero Part -->
+         <section>
+            <div class="hero-con">
+                <div class="left">
+                    <h1>
+                        <span class="emp">Empowering</span><br>
+                            students from small <br> age <span class="to">towards vision</span>
+                    </h1>
+                    <p>
+                        With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.
+                    </p>
+
+                    <div>
+                        <button class="enroll">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div>
+                        <img src="assets/hero-kids.png" alt="">
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+         <section class="standard">
+            <div class="curriculum">
+                <h2 class="title">
+                    Standard Curriculum
+                </h2>
+
+                <div class="box-con">
+                    <div class="box box1">
+                        <div>
+                            <img src="assets/kinder.png" alt="">
+                        </div>
+                        <h3>Kinder (3-6) Years</h3>
+                        <p>
+                            Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus
+                            mu sdis parturient
+                        </p>
+                        <p class="readmore">
+                            Read More
+                        </p>
+                    </div>
+                    <div class="box box2">
+                        <div>
+                            <img src="assets/kinder.png" alt="">
+                        </div>
+                        <h3>Kinder (3-6) Years</h3>
+                        <p>
+                            Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus
+                            mu sdis parturient
+                        </p>
+                        <p class="readmore">
+                            Read More
+                        </p>
+                    </div>
+                    <div class="box box3">
+                        <div>
+                            <img src="assets/kinder.png" alt="">
+                        </div>
+                        <h3>Kinder (3-6) Years</h3>
+                        <p>
+                            Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus
+                            mu sdis parturient
+                        </p>
+                        <p class="readmore">
+                            Read More
+                        </p>
+                    </div>
+                </div>
+
+                <div class="arrow">
+                    <div class="img">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="img">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+         </section>
     </main>
-    <footer>
-
-    </footer>
-</body>
-
+    <footer></footer>
+  </body>
 </html>

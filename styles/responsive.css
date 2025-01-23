@@ -1,0 +1,70 @@
+@media screen and (max-width:680px){
+
+    .nav , .hero-con , .curriculum{
+        max-width: calc(100% - 20px);
+        margin: 0px auto;
+    }
+
+
+
+    .mobile{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .ham{
+        width: 30px;
+    }
+
+    .mobile-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    hr{
+        display: block;
+        border: 0.5px solid rgb(254, 163, 1);
+    }
+
+
+
+
+    /* Hero Part */
+    .hero-con{
+        flex-direction: column-reverse;
+    }
+
+    .hero-con h1{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .hero-con p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .left{
+        align-items: center;
+    }
+
+    .box-con{
+        flex-direction: column;
+    }
+
+    .title{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .standard{
+        background: url("../assets/bg.png") no-repeat top left;
+    }
+
+    .arrow{
+        display: none;
+    }
+}
