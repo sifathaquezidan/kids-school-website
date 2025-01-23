@@ -1,6 +1,6 @@
 @media screen and (max-width:680px){
 
-    .nav , .hero-con , .curriculum{
+    .nav , .hero-con , .curriculum , .story-container{
         max-width: calc(100% - 20px);
         margin: 0px auto;
     }
@@ -60,11 +60,33 @@
         text-align: center;
     }
 
-    .standard{
+    .standard , {
         background: url("../assets/bg.png") no-repeat top left;
     }
 
     .arrow{
         display: none;
+    }
+
+    /* Our stories */
+    .big-story{
+        display: none;
+    }
+
+    .story-container{
+        grid-template-columns: 1fr;
+    }
+
+    .date2{
+        width: 80%;
+        font-size: 10px;
+    }
+
+    #story-data{
+        padding: 5px;
+    }
+
+    #story-data h3{
+        padding: 20px 0;
     }
 }
